@@ -1,0 +1,11 @@
+name: custom-github-action
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - slack_sdk
+      - requests
+      - pyee
+      - retrying
