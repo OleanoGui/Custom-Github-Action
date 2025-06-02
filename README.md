@@ -13,8 +13,7 @@ A customizable *GitHub Action* designed to trigger on Pull Request events and se
 - **Automatic triggers** on Pull Request events:
     - *opened*
     - *closed*
-    - *approved*
-    - *rejected*
+      
 - Real-time notifications sent to a Slack channel via the Slack Web-API
 - Easy integration with your Slack workspace through a Slack App
 - Customizable messages containing comprehensive Pull Request information
@@ -44,3 +43,5 @@ uses: USER_OR_ORG_NAME/REPO_NAME/.github/workflows/REUSABLE_WORKFLOW_FILE.yml@TA
 ```
 
 For more details on reusable workflows, check out this [GitHub Blog post](https://github.blog/2022-02-10-using-reusable-workflows-github-actions/)
+
+![image](https://github.com/user-attachments/assets/5ce502b3-64d7-4aea-9a2f-770fd2aac75d)
