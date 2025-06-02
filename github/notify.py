@@ -26,6 +26,7 @@ def publish_message(message):
     try:
         result = client.chat_postMessage(
             channel=message["channel"],
+            text="New Pull Request!",
             blocks=message["blocks"]
         )
         logger.info(result)
