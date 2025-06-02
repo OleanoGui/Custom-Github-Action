@@ -35,4 +35,4 @@ jobs:
           PULL_REQUEST_STATE: ${{ github.event.pull_request.state }}
         run: |
           echo "Sending Slack notification..."
-          python .github/notify.py
+          python notify.py
