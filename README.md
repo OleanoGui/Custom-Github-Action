@@ -30,7 +30,7 @@ A customizable *GitHub Action* designed to trigger on Pull Request events and se
 
 Integrate this action into your project by following these steps:
 
-1. Copy both `action.yml` and `notify.js` into your project's `.github/workflows` directory.
+1. Copy both `action.yml` and `notify.py` into your project's `.github/workflows` directory.
 2. Obtain a Slack API Token by creating a Slack App and installing it in your workspace. Follow the [Slack API Documentation](https://api.slack.com/start/quickstart#creating) for guidance.
 3. Add your Slack API Token as a GitHub Secret in your repository:  
    Go to `Settings > Secrets > New repository secret`, name it `SLACK_API_TOKEN`, and paste your token as the value.
@@ -43,4 +43,4 @@ This action is reusable! After setting it up in one project, you can call it fro
 uses: USER_OR_ORG_NAME/REPO_NAME/.github/workflows/REUSABLE_WORKFLOW_FILE.yml@TAG_OR_BRANCH
 ```
 
-For more details on reusable workflows, check out this [GitHub Blog post](https://github.blog/2022-02-10-using-reusable-workflows-github-actions/).
+For more details on reusable workflows, check out this [GitHub Blog post](https://github.blog/2022-02-10-using-reusable-workflows-github-actions/)
